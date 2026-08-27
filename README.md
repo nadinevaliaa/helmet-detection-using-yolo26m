@@ -57,7 +57,7 @@ Model yang digunakan dalam project ini adalah YOLO26m, model object detection te
 | :--- | :--- |
 | Model | YOLO26m |
 | Ukuran Gambar | 640x640 |
-| Epoch | 70 |
+| Epoch | 73 |
 | Optimizer | MuSGD |
 | Perangkat Pelatihan | NVIDIA Tesla T4 |
 | Jumlah Kelas | 2 |
@@ -66,7 +66,7 @@ Model dilatih untuk mendeteksi dua kelas berikut:
 - `With Helmet`
 - `Without Helmet`
 
-Pelatihan dilakukan menggunakan GPU NVIDIA Tesla T4. Proses pelatihan mencapai 70 epoch karena keterbatasan runtime komputasi yang tersedia.
+Pelatihan dilakukan menggunakan GPU NVIDIA Tesla T4. Proses pelatihan mencapai 73 epoch karena keterbatasan runtime komputasi yang tersedia.
 
 ## Object Tracking
 Object tracking diterapkan menggunakan `SimpleIoUCentroidTracker` yang dikembangkan untuk mempertahankan identitas objek yang terdeteksi pada frame video secara berurutan.
