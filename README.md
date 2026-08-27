@@ -100,7 +100,7 @@ Model YOLO26m yang telah dilatih dievaluasi menggunakan beberapa metrik object d
 ![F1](assets/F1_curve.png)
 
 ## Hasil Deteksi
-| Input | Hasil Prediksi |
+| Input | Hasil Deteksi |
 |-------|------------|
 | ![](assets/detection_input(2).png)| ![](assets/detection_result(2).png) |
 | ![](assets/detection_input(3).png) | ![](assets/detection_result(3).png) |
