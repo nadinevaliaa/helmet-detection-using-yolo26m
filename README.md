@@ -1,7 +1,7 @@
 # Deteksi Penggunaan Helm pada Pengendara Menggunakan YOLO26m pada Sistem Multimedia Interaktif Berbasis Web
 
 ## Deskripsi Project
-Sistem deteksi helm pada pengendara sepeda motor berbasis deep learning menggunakan YOLO26m untuk melakukanobject detection, object tracking, dan inference melalui aplikasi web interaktif.
+Sistem deteksi helm pada pengendara sepeda motor berbasis deep learning menggunakan YOLO26m untuk melakukan object detection, object tracking, dan inference melalui aplikasi web interaktif.
 
 ![Hasil Deteksi Helm](assets/detection_result(1).png)
 
@@ -50,7 +50,7 @@ graph TD
     H --> I[Web Interface Deployment & Inference]
 ```
 ## Model
-Model yang digunakan dalam project ini adalah YOLO26m, model object detection terbaru dari Ultralytics (rilis 2025). Varian medium ini dipilih karena menawarkan keseimbangan optimal antara kecepatan proses dan akurasi deteksi secara real-time.
+Model yang digunakan dalam project ini adalah YOLO26m, model object detection terbaru dari Ultralytics (rilis 2025). Varian medium ini dipilih karena memiliki keseimbangan optimal antara kecepatan proses dan akurasi deteksi secara real-time.
 
 ## Konfigurasi Pelatihan
 | Parameter | Nilai  |
