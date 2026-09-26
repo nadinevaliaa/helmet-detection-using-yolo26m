@@ -121,7 +121,8 @@ Mendukung beberapa jenis input:
 - Python
 - PyTorch
 - Ultralytics
-- YOLO26mOpenCV
+- YOLO26m
+- OpenCV
 - NumPy
 - Pandas
 - Gradio
